@@ -22,10 +22,46 @@
           <input type="number" name="petCount">
         </label>
 
+        <label> To create account, enter a password
+          <textarea name="applicantReason" rows="8" cols="80">Because i don't have enough cat hair on my sofa :</textarea>
+        </label>
+        <fieldset>
+          <legend>What types of pets ae you interested in?</legend>
+          <label>Dogs
+            <input type="checkbox" name="pets" value="dogs">
+          </label>
+          <label>Cats
+            <input type="checkbox" name="pets" value="cats">
+          </label>
+          <label>Monkeys
+            <input type="checkbox" name="pets" value="monkeys">
+          </label>
+          <label>Birds
+            <input type="checkbox" name="pets" value="birds">
+          </label>
+          <label>Chickens
+            <input type="checkbox" name="pets" value="chickens">
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Are you interested in adpoting special needs or elderly pets?</legend>
+          <label><input type="radio" name="special" value="yes">Yes</label>
+          <label><input type="radio" name="special" value="no">No</label>
+        </fieldset>
+
+        <label>How many hours a day is someone usually home to keep a pet company?
+          <select class="" name="hours">
+            <option value="">Please select</option>
+            <option value="few">less than 10</option>
+            <option value="some">10 to 16</option>
+            <option value="many">more than 16</option>
+          </select>
+        </label>
+
+
           <label>To Create an account,  enter a password:
             <input type="password" name="accountPin">
           </label>
-
           <input type="submit" value="Apply Now">
 
       </form>
