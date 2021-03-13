@@ -2,9 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Web Forms</title>
   </head>
   <body>
+    <h1>Pet Adaption Application</h1>
+      <form method="GET">
+        <label>Your Name:
+          <input type="text" name="applicationName">
+        </label>
+        <label>Your Email:
+          <input type="email" name="applicationEmail">
+        </label>
+        <!-- the other label syntax -->
+        <label for="city">What city are you in?</label>
+          <input id="city" type="text" name="applicationEmail">
+
+        <label>How many pets are in your home?
+          <input type="number" name="petCount">
+        </label>
+
+          <label>To Create an account,  enter a password:
+            <input type="password" name="accountPin">
+          </label>
+
+          <input type="submit" value="Apply Now">
+
+      </form>
 
   </body>
 </html>
